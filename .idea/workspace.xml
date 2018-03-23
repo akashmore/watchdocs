@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1d5a47e-d6b4-4b0c-821d-98d880e28bed" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/search.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/static/css/index.css" afterPath="$PROJECT_DIR$/static/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/static/js/index.js" afterPath="$PROJECT_DIR$/static/js/index.js" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change beforePath="$PROJECT_DIR$/templates/output.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/upload/1026.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/upload/3102.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/upload/7794.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/watchdocs.py" afterPath="$PROJECT_DIR$/watchdocs.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="241" column="22" lean-forward="true" selection-start-line="241" selection-start-column="22" selection-end-line="241" selection-end-column="22" />
+            <state relative-caret-position="153">
+              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -38,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/templates/search.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -47,18 +38,18 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
+            <state relative-caret-position="646">
               <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="watchdocs.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="watchdocs.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/watchdocs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+            <state relative-caret-position="482">
+              <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding>
                 <element signature="e#1#20#0" expanded="true" />
               </folding>
@@ -96,10 +87,10 @@
         <option value="$PROJECT_DIR$/static/js/dropzone.js" />
         <option value="$PROJECT_DIR$/templates/output.html" />
         <option value="$PROJECT_DIR$/static/js/index.js" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/static/css/index.css" />
         <option value="$PROJECT_DIR$/templates/search.html" />
         <option value="$PROJECT_DIR$/watchdocs.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
@@ -129,24 +120,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="watchdoc1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="watchdoc1.0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="watchdoc1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="watchdoc1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="watchdoc1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="watchdoc1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="watchdoc1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="watchdoc1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="watchdocgit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="watchdocgit" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -156,7 +131,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/watchdocs-master/watchdoc.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
@@ -237,17 +212,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17349927" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.296063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.296063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -286,6 +262,42 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4097">
+          <caret line="241" column="22" lean-forward="true" selection-start-line="241" selection-start-column="22" selection-end-line="241" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/watchdocs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3383">
           <caret line="199" column="0" lean-forward="false" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
           <folding>
@@ -302,19 +314,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/watchdocs-master/watchdoc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1921">
-          <caret line="117" column="33" lean-forward="false" selection-start-line="117" selection-start-column="33" selection-end-line="117" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../watchdocs-master/watchdoc.py" />
     <entry file="file://$PROJECT_DIR$/static/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -360,7 +364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -496,13 +499,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/watchdocs-master/watchdoc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../watchdocs-master/watchdoc.py" />
     <entry file="file://$PROJECT_DIR$/templates/nav.html" />
     <entry file="file://$PROJECT_DIR$/static/backup/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -550,58 +547,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/watchdocs-master/watchdoc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="141" column="21" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="141" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../watchdocs-master/watchdoc.py" />
     <entry file="file://$PROJECT_DIR$/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
+        <state relative-caret-position="646">
           <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/output.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/output.html" />
     <entry file="file://$PROJECT_DIR$/templates/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="241" column="22" lean-forward="true" selection-start-line="241" selection-start-column="22" selection-end-line="241" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/watchdocs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        <state relative-caret-position="482">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding>
             <element signature="e#1#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
