@@ -1,0 +1,42 @@
+ .md-padding {
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+/* file upload */
+.fileUpload
+{
+  padding:5%;
+}
+
+#uploadSubmit
+{
+
+    margin-left: 50%;
+}
+#labelfile
+{
+   margin-left:45%;
+   border-radius:5px;
+   pading:2%;
+ }
+.btn-default {
+    color: #333;
+    background-color: #ccc;
+    border-color: #ccc;
+}
+
+#ufile
+{
+  margin-top:1%;
+  margin-left: 40%;
+
+}
+
+/* result */
+#result
+{
+  margin-left:45%;
+  font-weight:bold;
+  font-color:black;
+}
