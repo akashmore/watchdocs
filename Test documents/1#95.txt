@@ -1,0 +1,6 @@
+Sum.
+Sigma notation.
+Sigma notation is a mathematical notation to write long sums in a short way. Sigma notation uses the Greek letter Sigma, (∑), and takes upper and lower bounds which tell us where the sum begins and where it ends. The lower bound usually has a variable (called the index) given a value, such as "i=2". This tells us that the summation begins at 2, and goes up by 1 until it reaches the number on the top.
+Applications.
+Sums are used to represent series and sequences. For example,
+The geometric series of a repeating decimal can be represented in summation,

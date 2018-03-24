@@ -1,3 +1,4 @@
+/* for synchronize output without refresh page */
 $(function() {
     $('#uploadSubmit').click(function(event) {
         var form_data = new FormData($('#upload-file')[0]);
@@ -16,4 +17,9 @@ $(function() {
         });
         event.preventDefault();
     });
+});
+
+/*test*/
+$(document).ready(function() {
+$('#nav-container').load('nav.html');
 });

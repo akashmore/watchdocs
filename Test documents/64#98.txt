@@ -1,0 +1,19 @@
+Mitosis.
+Mitosis is part of the cycle of cell division. The chromosomes of a cell are copied to make two identical sets of chromosomes, and the cell nucleus divides into two identical nuclei.
+Before mitosis, the cell creates an identical set of its own genetic information – this is called replication. The genetic information is in the DNA of the chromosomes. At the beginning of mitosis the chromosomes wind up into visible objects that can be seen with a light microscope. The chromosomes are now two chromatids joined at the centromere. Since the two chromatids are identical to each other, they are called "sister" chromatids.
+Mitosis happens in all types of dividing cells in the human body except with sperm and ova. The sperm and ova are gametes or sex cells. The gametes are produced by a different division method called meiosis.
+Phases of mitosis.
+There are five phases of mitosis. Each phase is used to describe what kind of change the cell is going through. The phases are prophase, prometaphase, metaphase, anaphase and telophase.
+Prophase.
+During prophase, chromosomes in the nucleus condense. Pairs of centrioles move to opposite sides of the nucleus. Spindle fibers begin to form a bridge between the ends of the cell.
+Prometaphase.
+During prometaphase, the nuclear envelope around the chromosomes breaks down. Now there is no nucleus and the sister chromatids are free. A protein called a kinetochore forms at each centromere. Long thin proteins reach across from opposite poles of the cell and attach to each kinetochore.
+Metaphase.
+During metaphase, the sister chromatids are aligned by the pushing and pulling of the attached kinetochore microtubules, similar to a game of "tug of war". Both sister chromatids stay attached to each other at the centromere. The chromosomes line up on the cell's equator, or center line, and are prepared for division.
+Anaphase.
+During anaphase, the sister chromatids split apart and move from the cell's equator (metaphase plate) to the poles of the cell. The kinetochore is attached to the centromere. The microtubules hold on to kinetochore and shorten in length. Another group of microtubules, the non-kinetochore microtubules, do the opposite. They become longer. The cell begins to stretch out as the opposite ends are pushed apart.
+Telophase.
+Telophase is the final stage in mitosis: the cell itself is ready to divide. One set of chromosomes is now at each pole of the cell. Each set is identical. The spindle fibers begin to disappear, and a nuclear membrane forms around each set of chromosomes. Also a nucleolus appears within each new nucleus and single stranded chromosomes uncoil into invisible strands of chromatin.
+Cytokinesis.
+Cytokinesis, even though it is very important to cell division, is not considered a stage of mitosis. During cytokinesis, the cell physically splits. This occurs just after anaphase and during telophase. The cleavage furrow, which is the pinch caused by the ring of proteins, pinches off completely, closing off the cell.
+The cell now has reproduced itself successfully. After cytokinesis, the cell goes back into interphase, where the cycle is repeated. If cytokinesis were to occur to a cell that had not gone through mitosis, then the daughter cells would be different or not function properly. One would still have the nucleus and the other would lack a nucleus. Cytokinesis is different in both animals and plant cells. In plant cells, instead of splitting into two halves, it forms a cell plate.

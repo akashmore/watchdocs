@@ -69,22 +69,26 @@ def categarize(filename):
 
     print("------------------------------------------------------")
     categorylist = list()
-    for category in response.categories():
-        alterLabel = (category.label).split(">")
-        finalcat.append(alterLabel[-1])
-        finalscore.append(category.score)
-        k = finalcat[0]
-        s = finalscore[0]
+    try:
+        for category in response.categories():
+            alterLabel = (category.label).split(">")
+            finalcat.append(alterLabel[-1])
+            finalscore.append(category.score)
 
-        #print(category.label)
-        print(alterLabel[-1])
-        #print category.score
-        categorylist.append(alterLabel[-1])
-        mydb.category.insert({"category": alterLabel[-1]})
-    mydb.doccat.insert({"classified": k, "Document": filename, "Score":s })
-    mydb.record.insert({"name": filename, "description": [{"keywords": keywords, "topic": topiclist, "category": categorylist}]})
-    output = "Category : " + str(k)
-    return jsonify(result=output)
+            k = finalcat[0]
+            s = finalscore[0]
+
+            #print(category.label)
+            print(alterLabel[-1])
+            #print category.score
+            categorylist.append(alterLabel[-1])
+            mydb.category.insert({"category": alterLabel[-1]})
+        mydb.doccat.insert({"classified": k, "Document": filename, "Score":s })
+        mydb.record.insert({"name": filename, "description": [{"keywords": keywords, "topic": topiclist, "category": categorylist}]})
+        output = "Category : " + str(k)
+        return jsonify(result=output)
+    except:
+        return jsonify(result="error while categorizing")
 @app.route('/search',methods = ['POST', 'GET'])
 def search():
     jsonResultDocuments={}
@@ -99,7 +103,10 @@ def search():
 
 @app.route('/searchResult/<filejson>')
 def searchResult(filejson):
-    return filejson["files"]
+     responejson=json.loads(filejson)
+     fileArray=responejson["files"]
+     print(fileArray)
+     return render_template('search.html',files=fileArray)
 #main function
 if __name__ == '__main__':
     app.run(debug=True)

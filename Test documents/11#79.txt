@@ -1,0 +1,3 @@
+Minute.
+A minute is a customary unit of time, it is equal to 60 seconds and there are 60 minutes in an hour. Unlike the second, the hour is not an SI unit.
+A minute is also 1/60 of a degree.
