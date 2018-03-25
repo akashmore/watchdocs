@@ -19,7 +19,3 @@ $(function() {
     });
 });
 
-/*test*/
-$(document).ready(function() {
-$('#nav-container').load('nav.html');
-});

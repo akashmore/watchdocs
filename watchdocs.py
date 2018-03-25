@@ -11,8 +11,8 @@ import textrazor
 client = MongoClient('localhost', 27017)
 mydb = client['watchdoc']
 collection=mydb['doccat']
-UPLOAD_FOLDER ='C://Users//champ//Desktop//watchdoc1.0//upload'
-
+#UPLOAD_FOLDER ='C://Users//champ//Desktop//watchdoc1.0//upload'
+UPLOAD_FOLDER='C://Users//champ//Documents//watchdocgit//upload'
 
 #start app
 app = Flask(__name__)
@@ -43,7 +43,7 @@ def categarize(filename):
     textrazor.api_key = "f8656917eff9fdb7989aafbb22a8c8e1b74ebd076f1040c75de4dfcc"
     client = textrazor.TextRazor(extractors=["entities", "topics"])
     # client.set_cleanup_mode("cleanHTML")
-    path = app.config['UPLOAD_FOLDER'] + '/' + filename
+    path = app.config['UPLOAD_FOLDER'] + '//' + filename
     client.set_classifiers(["textrazor_newscodes"])
     input_file = file(path).read().decode("utf-8")
     response = client.analyze(input_file)
@@ -107,6 +107,16 @@ def searchResult(filejson):
      fileArray=responejson["files"]
      print(fileArray)
      return render_template('search.html',files=fileArray)
+
+
+#for reading files
+@app.route('/fileread',methods=['GET','POST'])
+def fileReading():
+    if request.method == 'GET':
+        requestFile = request.args.get('filename')
+        path = app.config['UPLOAD_FOLDER'] + '//' + requestFile
+        print(path)
+        return send_from_directory(app.config['UPLOAD_FOLDER'], requestFile)
 #main function
 if __name__ == '__main__':
     app.run(debug=True)

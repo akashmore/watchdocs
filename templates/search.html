@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-     <script type="text/javascript" src="../static/js/search.js"></script>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../static/js/search.js"></script>
 </head>
 <body>
 
-
-   <ul>
+<div class="row">
+    <!--fileListing-->
+    <div class="col-sm-6">
+        <h3>Relevant Documents:</h3>
+        <ul>
          {% for value in files %}
 
 
                <li id="{{ value }}"  name="{{ value }}" onclick="display(this)">{{ value }} </li>
-
+               <br>
 
          {% endfor %}
-   </ul>
-
+        </ul>
+    </div>
+    <!--/fileListing-->
+    <!--fileContent-->
+    <div class="col-sm-6">
+        <h3>Content:</h3>
+       <p id="fileContent"> </p>
+    </div>
+    <!--/fileContent-->
+</div>
 </body>
 </html>
