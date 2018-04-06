@@ -15,8 +15,9 @@
 
 <div class="row">
     <!--fileListing-->
-    <div class="col-sm-6">
-        <h3>Relevant Documents:</h3>
+    <div class="col-sm-3">
+        <h4>Relevant Documents:</h4>
+        <h6>(Click on link to display content)</h6>
         <ul>
          {% for value in files %}
 
@@ -29,9 +30,12 @@
     </div>
     <!--/fileListing-->
     <!--fileContent-->
-    <div class="col-sm-6">
-        <h3>Content:</h3>
+    <div class="col-sm-9">
+        <h4>Content:</h4>
+
+        <div  style="border:1px">
        <p id="fileContent"> </p>
+        </div>
     </div>
     <!--/fileContent-->
 </div>

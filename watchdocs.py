@@ -88,16 +88,20 @@ def categarize(filename):
         output = "Category : " + str(k)
         return jsonify(result=output)
     except:
-        return jsonify(result="error while categorizing")
+        return jsonify(result="unable to categarize")
 @app.route('/search',methods = ['POST', 'GET'])
 def search():
     jsonResultDocuments={}
+    docScore={}
     resultdocuments=[]
     if request.method == 'POST':
         keyword = request.form['searchkeyword']
 
         for document in collection.find({"classified":keyword}):
-            resultdocuments.append(document['Document'])
+            docScore[document['Document']]=document['Score']
+            print(docScore)
+        for key, value in sorted(docScore.iteritems(), key=lambda (k, v): (v, k),reverse=True):
+            resultdocuments.append(key)
         jsonResultDocuments["files"]=resultdocuments
     return redirect(url_for('searchResult',filejson=json.dumps(jsonResultDocuments)))
 
@@ -114,8 +118,7 @@ def searchResult(filejson):
 def fileReading():
     if request.method == 'GET':
         requestFile = request.args.get('filename')
-        path = app.config['UPLOAD_FOLDER'] + '//' + requestFile
-        print(path)
+
         return send_from_directory(app.config['UPLOAD_FOLDER'], requestFile)
 #main function
 if __name__ == '__main__':
