@@ -46,6 +46,8 @@ def categarize(filename):
     path = app.config['UPLOAD_FOLDER'] + '//' + filename
     client.set_classifiers(["textrazor_newscodes"])
     input_file = file(path).read().decode("utf-8")
+    startLines= input_file[0:100]
+    print(startLines)
     response = client.analyze(input_file)
     entities = list(response.entities())
     entities.sort(key=lambda x: x.relevance_score, reverse=True)
@@ -83,7 +85,7 @@ def categarize(filename):
             #print category.score
             categorylist.append(alterLabel[-1])
             mydb.category.insert({"category": alterLabel[-1]})
-        mydb.doccat.insert({"classified": k, "Document": filename, "Score":s })
+        mydb.doccat.insert({"classified": k, "Document": filename, "Score":s,"startLines":startLines })
         mydb.record.insert({"name": filename, "description": [{"keywords": keywords, "topic": topiclist, "category": categorylist}]})
         output = "Category : " + str(k)
         return jsonify(result=output)
@@ -93,23 +95,24 @@ def categarize(filename):
 def search():
     jsonResultDocuments={}
     docScore={}
-    resultdocuments=[]
+    resultdocuments={}
     if request.method == 'POST':
         keyword = request.form['searchkeyword']
 
         for document in collection.find({"classified":keyword}):
-            docScore[document['Document']]=document['Score']
+            docScore[document['Document']]=document['Score'],document['startLines']
             print(docScore)
         for key, value in sorted(docScore.iteritems(), key=lambda (k, v): (v, k),reverse=True):
-            resultdocuments.append(key)
+            resultdocuments[key]=value[1]
         jsonResultDocuments["files"]=resultdocuments
     return redirect(url_for('searchResult',filejson=json.dumps(jsonResultDocuments)))
 
 @app.route('/searchResult/<filejson>')
 def searchResult(filejson):
+     print(filejson)
      responejson=json.loads(filejson)
      fileArray=responejson["files"]
-     print(fileArray)
+     #print(fileArray)
      return render_template('search.html',files=fileArray)
 
 
