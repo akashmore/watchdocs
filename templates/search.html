@@ -3,7 +3,7 @@
 <head>
      <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+<link type="text/css" rel="stylesheet" href="../static/css/search.css"/>
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -15,14 +15,17 @@
 
 <div class="row">
     <!--fileListing-->
-    <div class="col-sm-3">
+    <div class="container col-sm-3 searchOutputContainer">
+        <div class=" container searchOutputContainerHeadings ">
         <h4>Relevant Documents:</h4>
         <h6>(Click on link to display content)</h6>
+        </div>
+        <br>
         <ul>
          {% for value in files %}
 
 
-               <li id="{{ value }}"  name="{{ value }}" onclick="display(this)">{{ value }} </li>
+               <li id="{{ value }}"  style="color:blue" name="{{ value }}" onclick="display(this)">{{ value }} </li>
                <br>
 
          {% endfor %}
@@ -30,12 +33,12 @@
     </div>
     <!--/fileListing-->
     <!--fileContent-->
-    <div class="col-sm-9">
+    <div class="container col-sm-9 searchOutputContainer" >
+        <div class=" container searchOutputContainerHeadings" style="height: 63px;">
         <h4>Content:</h4>
-
-        <div  style="border:1px">
-       <p id="fileContent"> </p>
         </div>
+        <br>
+       <p id="fileContent"> </p>
     </div>
     <!--/fileContent-->
 </div>
