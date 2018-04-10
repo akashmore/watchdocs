@@ -12,7 +12,7 @@ import textrazor
 client = MongoClient('localhost', 27017)
 mydb = client['watchdoc']
 collection = mydb['doccat']
-UPLOAD_FOLDER = 'C://Users//champ//Downloads//watchdocs-master(5)//upload'
+UPLOAD_FOLDER = 'C://Users//champ//Documents//watchdocgit//upload'
 # UPLOAD_FOLDER='D:\\Study\\Final Year Sem 1\\Project\\watchdocs-master\\upload'
 
 # start app
