@@ -1,4 +1,0 @@
-Klein bottle.
-The Klein bottle is a geometrical object, named after the German mathematician Felix Klein. He described it in 1882, and named it "Klein'sche Fläche" (Klein surface). Like the Möbius strip, it only has one surface. Mathematicians call this a non-orientable surface. Klein bottles only exist in four-dimensional space, but a model of a Klein bottle can be made in 3D. This model is different from the original because at some point the shape touches itself. In 3D, part of the shape is "inside" the rest. This is not the case in 4D. Some 3D models use different colors to show the 4th component. The part that lies "inside" then has a different color.
-Because the surface is non-orientable, there is no "inside" or "outside". This means that if a liquid were filled "in the bottle", it would run down its surface. This may not be true for the 3D models of the bottle.
-The 2-dimensional version of a Klein bottle is a Möbius strip.

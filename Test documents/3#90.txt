@@ -1,2 +1,0 @@
-Nicotinamide adenine dinucleotide phosphate.
-NADP (nicotinamide adenine dinucleotide phosphate) (formula C21H29N7O17P3) is a coenzyme that carries electrical energy used in cellular processes. When a hydrogen atom is added, NADP becomes charged and is renamed NADPH. NADP is used extensively during the Krebs (citric acid) cycle and during glycolysis and in the light-dependent reactions of photosynthesis.

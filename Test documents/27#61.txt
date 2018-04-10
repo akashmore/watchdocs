@@ -1,7 +1,0 @@
-Vacuum.
-A vacuum is a place where there is no matter. Sound cannot move in a vacuum. Outer space is not a perfect vacuum, because there is a very small number of particles there.
-Industrial vacuums.
-Vacuum is needed for some kinds of industrial production. Vacuum pumps are used to pump air out of the vacuum chamber. In the real world it is not possible to create 100% vacuum, but some vacuum pumps are able to create 99.9999% vacuum. This is called "hard vacuum". Most industrial purposes don't need hard vacuum; 0.001% is good enough.
-Vacuum chambers are also used in many experiments in laboratories. Some experiments in Physics and Chemistry need hard vacuum.
-Other uses.
-A vacuum cleaner uses a strong vacuum force to suck in dirt, cleaning the floor.

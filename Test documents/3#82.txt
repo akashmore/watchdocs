@@ -1,2 +1,0 @@
-Curve.
-A curve is a line that turns or bends. A curved line is never straight, and a curved surface is a surface that is never flat. Some curves can be drawn on paper, but some curves, like a helix, can only be seen in 3-D. A circle is a curve that can be described with the formula "x"2 + "y"2 = "r"2. "x" and "y" are used as in a Cartesian coordinate system, and "r" is the radius of the circle (distance from the center to the outside). Many other curves can also be described with a formula like that.

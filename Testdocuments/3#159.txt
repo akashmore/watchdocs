@@ -1,0 +1,2 @@
+Hole.
+A hole is an empty space in a solid object, which can be flat.

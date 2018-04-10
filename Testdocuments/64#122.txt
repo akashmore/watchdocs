@@ -1,0 +1,7 @@
+Inkjet printer.
+An Inkjet printer is a printer for computers. It uses special ink to print on the paper. Another type of printing technology is the Laser printer.
+Usually, inkjet printers are used by people who print very little. The ink comes in special ink cartridges, which can be very expensive and uneconomical. Also, the ink in the cartridge may dry up. This means that a new cartridge is needed. Three colors of cartridges, which combine magenta, yellow and cyan inks are used to create color tones. A black cartridge is also used for crisp monochrome output.
+Many professionals use inkjet printers to print on very large surfaces (up to 5m width). These printers usually do not use cartridges, but have a continuous supply of ink that could last for a long time.
+Inkjet printers need special paper. This paper has been treated so that the ink does not smear.
+Less expensive inkjet printers, which cost a little more than 100 US dollars, are a bargain for users who want to be able to print pages in color. Inkjet printers can be very cheap but the ink can also be rather expensive.
+An inkjet printer can print between 300 and 720 DPI (Dots Per Inch).

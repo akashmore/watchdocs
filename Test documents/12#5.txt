@@ -1,8 +1,0 @@
-Fertilizer.
-A fertilizer is a chemical that helps plants to grow. It is used to replace the mineral salts taken by plants or removed by rain.
-When fertilizers are offered for sale, the percentage of N, P, and K must be written on the bags or boxes, but for historcal reasons, P is shown as %P2O5 and K is shown as %K2O.
-E.g.:9-23-30 which means: 9% N, 23%P2O5 and 30%K2O.
-In Australia the pecent of elemental sulfur must also be shown.
-In the UK, the elemental composition (in percentages) may also be shown alongside the mandatory traditional system, provided the numbers are put inside square brackets.
-Leafy plants need lots of N. Flowering plants need lots of P and K.
-A soil test can tell how much N, P, and K is needed.

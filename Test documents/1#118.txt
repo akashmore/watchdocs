@@ -1,5 +1,0 @@
-Memory card.
-A memory card is a form of flash memory that is used in a range of electronic devices such as a digital camera or video game console. The memory card stores data, images, music, saved games or other computer files.
-Flash memory devices like this contain no moving parts so they are not easily damaged. This means that they are ideal for use in portable devices such as MP3 players, digital cameras, mobile phones etc.
-The amount of data memory cards can store depends on the "capacity" of the card. Currently (in 2017) the largest memory cards can store 1 terabyte of data. As the technology improves, larger capacity cards are expected.
-There are many different types of memory cards, for example Secure Digital (SD) or CompactFlash (CF), but the majority are SD cards or MicroSD.

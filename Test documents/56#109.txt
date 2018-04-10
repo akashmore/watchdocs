@@ -1,2 +1,0 @@
-Advanced Micro Devices.
-AMD (Advanced Micro Devices) is a large American company from Sunnyvale (California) that makes computer hardware. It makes many different computer parts, but it is most famous for its central processing units, or CPUs. Another important product are motherboard chipsets. It started as a company that made products for Intel, another large hardware company. Today, AMD's current line of CPUs is known as Ryzen. Ryzen CPUs have between 2 to 10 cores and can achieve speeds above 4 gigahertz (GHz.) In 2006 they bought the company ATI.

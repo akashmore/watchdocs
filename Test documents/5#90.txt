@@ -1,3 +1,0 @@
-Height.
-Height is the distance between the lowest end and highest end of an object.
-For example, people consider the bottom of the foot a person's lowest end, and the top of the head a person's highest end. If the distance between the bottom of a person's foot and the top of that person's head is 64 inches, then that person's height is 64 inches.

@@ -1,5 +1,0 @@
-Surface area.
-Surface area is the amount of space covering the outside of a three-dimensional (3D) object. The surface area of a polyhedron is found by finding the sum of the area of all of the faces. The surface area is found between many three-dimensional shapes using formulas.
-The surface area is useful because it tells you how much material is required in order to cover the object—for example, how much paint is needed to paint a table.Surface area is the sum of the faces, or surfaces, of a three dimensional shape.
-Surface area and evaporation.
-Surface area increases rate of evaporation because there are more molecules touching the surface. There the surface molecules can draw heat energy from the surroundings, which makes the molecules heat up faster and escape faster. This process is also known as evaporation. For example a bowl filled with water will evaporate much faster than a flask filled with the same amount.

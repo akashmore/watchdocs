@@ -1,3 +1,0 @@
-Constant.
-A constant is something that does not change. Constants (numbers) are used in maths and computer programming.
-An important fact to remember in calculus is that the derivative of a constant is always zero.
