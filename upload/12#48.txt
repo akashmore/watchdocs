@@ -1,0 +1,5 @@
+Open source.
+Open source is a kind of free software. It is different from other software because the source code is available to everyone. The source code is a set of instructions for the computer, written in a programming language.
+Anyone can see how the source code works and can change it if they want to make it work differently. The opposite of open source is closed source. Closed source software is not available to everyone. Open source has a lot in common with free software but each has its own focus and goals.
+Open source and free software have been around for decades. They became more popular with the Linux and BSD software communities. To protect the code, a special user license is used. The most common kinds of licence are the GPL, BSD and LGPL. Wikipedia uses open source too. The Open Source Movement is led by the Open Source Initiative.
+The open source movement became separate from the Free software movement in 1998.

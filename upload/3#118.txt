@@ -1,0 +1,4 @@
+Obfuscation.
+Obfuscation means making something harder to understand, usually by complicating sentences needlessly. Weasel words are a form of obfuscation. Obfuscation is usually used when people either do not know what they are talking about or wish to hide their meaning.
+Some people say that when doctors use difficult medical words to hide unpleasant things from patients, they are using obfuscation.
+Technical term: Obfuscation is sometimes used to make source code much harder to read and reverse engineer. This can be a significant concern for technology like Java and JavaScript that require source code to be exposed in order to function.

@@ -35,6 +35,21 @@ def upload_file():
         filename = secure_filename(file.filename)
        # print(filename)
         file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+        #for checking file count and tran model
+        fileCount = len([name for name in os.listdir(app.config['UPLOAD_FOLDER']) if os.path.isfile(os.path.join(app.config['UPLOAD_FOLDER'], name))])
+        if(fileCount%20==0):
+            filelist = list()
+            path = "C:\Users\champ\Documents\watchdocgit\Testdocuments"
+            for file in os.listdir(path):
+                filepath = path + '\\' + file
+                f = open(filepath, 'r')
+                filecontents = f.read()
+                filecontents = filecontents.split()
+                filelist.append(filecontents)
+                f.close()
+            model = gensim.models.Word2Vec(filelist, min_count=5, size=200, window=5, workers=4)
+            model.save("modelfile")
+
     return redirect(url_for('categarize', filename=filename))
 
 
@@ -48,6 +63,7 @@ def categarize(filename):
     # client.set_cleanup_mode("cleanHTML")
     path = app.config['UPLOAD_FOLDER'] + '//' + filename
     client.set_classifiers(["textrazor_newscodes"])
+    #input_file = file(path).read().decode("ISO-8859-1")
     input_file = file(path).read().decode("utf-8")
     startLines = input_file[0:100]
     #print(startLines)
@@ -106,34 +122,45 @@ def search():
         keyword = request.form['searchkeyword']
         keyword = keyword.lower()
         model = gensim.models.Word2Vec.load("modelfile")
-        resultlist = model.most_similar(keyword)
+        try:
+            resultlist = model.most_similar(keyword)
         #print(resultlist)
-        numberofresults = 7
+            numberofresults = 7
         # print "Words similar to searched keyword are"
-        for i in range(numberofresults):
-            print resultlist[i][0]
-        for document in collection.find():
-            category = document['classified'].lower()
-            if (keyword in category or category in keyword):
-                 docScore[document['Document']] = document['Score'], document['startLines']
-                 # print(docScore)
-            for i in range(len(resultlist)):
-                if (resultlist[i][0] in category or category in resultlist[i][0]):
-                    docScore[document['Document']] = document['Score'], document['startLines']
-                    # print(docScore)
-                for key, value in sorted(docScore.iteritems(), key=lambda (k, v): (v, k), reverse=True):
-                    resultdocuments[key] = value[1]
-    jsonResultDocuments["files"] = resultdocuments
-    return redirect(url_for('searchResult', filejson=json.dumps(jsonResultDocuments)))
+            for i in range(numberofresults):
+                print resultlist[i][0]
+                for document in collection.find():
+                     category = document['classified'].lower()
+                     if (keyword in category or category in keyword):
+                        docScore[document['Document']] = document['Score'], document['startLines']
+                        # print(docScore)
+                     for i in range(len(resultlist)):
+                        if (resultlist[i][0] in category or category in resultlist[i][0]):
+                            docScore[document['Document']] = document['Score'], document['startLines']
+                     # print(docScore)
+                     for key, value in sorted(docScore.iteritems(), key=lambda (k, v): (v, k), reverse=True):
+                            resultdocuments[key] = value[1]
+        except:
+              print("keywordnot found")
+        jsonResultDocuments["files"] = resultdocuments
+        if len(resultdocuments)==0:
+            resultOutput = 0
+        else:
+            resultOutput = 1
 
 
-@app.route('/searchResult/<filejson>')
-def searchResult(filejson):
+
+        return redirect(url_for('searchResult',filejson=json.dumps(jsonResultDocuments),is_result = resultOutput))
+
+
+@app.route('/searchResult/<filejson>/<is_result>')
+def searchResult(filejson,is_result):
     # print(filejson)
     responejson = json.loads(filejson)
     fileArray = responejson["files"]
+    show_result = is_result
     # print(fileArray)
-    return render_template('search.html', files=fileArray)
+    return render_template('search.html', files=fileArray,show_div=int(show_result))
 
 
 # for reading files
@@ -141,9 +168,15 @@ def searchResult(filejson):
 def fileReading():
     if request.method == 'GET':
         requestFile = request.args.get('filename')
-
         return send_from_directory(app.config['UPLOAD_FOLDER'], requestFile)
 
+#for donloading files
+@app.route('/filedownload', methods=['GET', 'POST'])
+def fileDownloading():
+    if request.method == 'GET':
+        downloadFile = request.args.get('filename')
+        path = app.config['UPLOAD_FOLDER'] + '//' + downloadFile
+        return send_from_directory(app.config['UPLOAD_FOLDER'], downloadFile)
 
 # main function
 if __name__ == '__main__':

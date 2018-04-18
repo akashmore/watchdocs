@@ -1,0 +1,7 @@
+Power station.
+A few power stations use the sun's rays to generate solar power without motion. There are many power stations around the world, because many things need electricity to work.
+Stations may be operated as Load following power plant, peaking power plant, or base load power plant.
+Non-renewable energy resources.
+These all use heat as a source of energy.
+Solid-state electricity sources.
+These sources have no moving parts. They are more expensive than generators, and are used where other questions are more important.

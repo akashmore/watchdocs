@@ -1,0 +1,2 @@
+Bit.
+When talking about storage space, 8 bits are usually called a byte.
