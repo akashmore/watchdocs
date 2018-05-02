@@ -1,0 +1,4 @@
+Windows 95.
+Windows 95 is an operating system by Microsoft released in 1995. Windows 95 added many new features to the last Windows operating system, which was Windows 3.x. Windows 95 was the first Windows with the "Start" button. Since then it has been used in all Windows operating systems. Although Windows 95 is thought of as a full operating system, it works over MS-DOS. Windows 95 is like a visual version of DOS. This means that Windows 95 can run both MS-DOS programs and Windows ones, but programs made just for Windows 95 will not work in DOS.
+Windows 95 was Microsoft's first operating system to support long file names. Before that, file names could only be eight characters (letters, numbers, or symbols) long, plus the file extension. Windows 95 was also Microsoft's first operating system to fully support CD-ROMs, though Windows 3.x could also access CD-ROMs.
+It was popular from 1995 until 1998 when Microsoft replaced it with Windows 98.

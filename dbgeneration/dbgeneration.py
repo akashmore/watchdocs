@@ -4,8 +4,8 @@ import os
 client = MongoClient('localhost', 27017)
 mydb = client['watchdoc']
 collection = mydb['doccat']
-DOCUMENT_FOLDER='C://Users//champ//Documents//watchdocgit//Testdocuments//27123to7814'
-textrazor.api_key = "f8656917eff9fdb7989aafbb22a8c8e1b74ebd076f1040c75de4dfcc"
+DOCUMENT_FOLDER='C://Users//champ//Documents//watchdocgit//Testdocuments//6451to100204'
+textrazor.api_key = "0db9955a7bd9f0d9ac9f96a28c0093123b4546dd3bfff2cfd6f0f505"
 client = textrazor.TextRazor(extractors=["entities", "topics"])
 client.set_classifiers(["textrazor_newscodes"])
 for filename in os.listdir(DOCUMENT_FOLDER):

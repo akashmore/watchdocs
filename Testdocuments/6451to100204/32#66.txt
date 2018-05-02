@@ -1,0 +1,4 @@
+Fark.com.
+Fark is a comedy website and forums.
+Fark was started by Drew Curtis in 1999 as a weblog where users post current news articles and other information. Then other users make comments on these articles. There are two classes of users; users with free subscriptions are able to post comments in the forums and submit new articles. There is also a subscription service called TotalFark that grants access to more news stories. Regular subscribers are known as Farkers and paying subscribers are often called TotalFarkers or TFers.
+Fark is what's known as a news aggregator. The page is divided into several tabs, "Not News", "Sports", "Business", "Geek", "Showbiz", "Politics", "Music", and "Video" Users submit stories that are relevant to each tab, and staffers and subscribers decide which ones are posted. Once a story is posted, a corresponding forum thread is created where any subscriber can comment on the story.

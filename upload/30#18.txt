@@ -1,0 +1,3 @@
+Interpreter.
+An interpreter is a person who translates speech in different languages, usually at conferences or other meetings. There was a movie called "The Interpreter". Also, an interpreter is someone who will translate and communicate with people who find normal speech difficult.
+An interpreter is also a computer program that runs other programs described in text files. They are different from compilers because they do not make a new file to run the program.

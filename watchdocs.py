@@ -6,8 +6,8 @@ from flask import Flask, request, redirect, url_for
 from werkzeug.utils import secure_filename
 from pymongo import MongoClient
 from flask import send_from_directory
+from rake_nltk import Rake
 import textrazor
-
 # database connection
 client = MongoClient('localhost', 27017)
 mydb = client['watchdoc']
@@ -39,6 +39,7 @@ def upload_file():
         fileCount = len([name for name in os.listdir(app.config['UPLOAD_FOLDER']) if os.path.isfile(os.path.join(app.config['UPLOAD_FOLDER'], name))])
         if(fileCount%20==0):
             filelist = list()
+
             path = "C:\Users\champ\Documents\watchdocgit\Testdocuments"
             for file in os.listdir(path):
                 filepath = path + '\\' + file
@@ -65,8 +66,12 @@ def categarize(filename):
     client.set_classifiers(["textrazor_newscodes"])
     #input_file = file(path).read().decode("ISO-8859-1")
     input_file = file(path).read().decode("utf-8")
+    r = Rake()
+    r.extract_keywords_from_text(input_file)
+    #print(r.get_ranked_phrases())
     startLines = input_file[0:100]
     #print(startLines)
+    # os.system("LSA.py")
     response = client.analyze(input_file)
     entities = list(response.entities())
     entities.sort(key=lambda x: x.relevance_score, reverse=True)
@@ -75,7 +80,7 @@ def categarize(filename):
     info = list()
     for entity in entities:
         if entity.id not in seen:
-            # print (entity.id, entity.relevance_score, entity.confidence_score, entity.freebase_types)
+            #print (entity.id, entity.relevance_score, entity.confidence_score, entity.freebase_types)
             seen.add(entity.id)
             keywords.append(entity.id)
     mydb.keywords.insert({"keywords": keywords, "name": filename})
@@ -84,7 +89,7 @@ def categarize(filename):
     for topic in response.topics():
 
         if topic.score > 0.3:
-            # print (topic.label)
+            #print (topic.label)
             topiclist.append(topic.label)
             mydb.topic.insert({"topic": topic.label})
 
@@ -99,7 +104,7 @@ def categarize(filename):
             k = finalcat[0]
             s = finalscore[0]
 
-            # print(category.label)
+            print(category.label)
             # print(alterLabel[-1])
             # print category.score
             categorylist.append(alterLabel[-1])

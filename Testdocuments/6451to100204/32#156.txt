@@ -1,0 +1,5 @@
+Triangle.
+A triangle is a shape, or a specific part of two dimensional space. It has three straight sides and three vertices. The three angles of a triangle always add up to 180° (180 degrees). It is the polygon with the least possible number of sides.
+Uses.
+Triangles are extremely useful. Measuring objects using triangles is called trigonometry. Some people have spent their entire lives studying triangles for use in trigonometry.
+Modern computers usually use triangles to make more complex graphic images or shapes.

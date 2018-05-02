@@ -1,0 +1,18 @@
+Boolean algebra.
+Boolean algebra is algebra for binary (0 means false and 1 means true). It uses normal maths symbols, but it does not work in the same way. It is named after its creator George Boole.
+NOT gate.
+It means the output is not the input.
+AND gate.
+The output is true only if one and the other input is true.
+OR gate.
+One or the other input can be true for the output to be true.
+XOR gate.
+XOR basically means "exclusive or", meaning one input or the other must be true, but not both.
+To make it more simple, one or the other input must be true, but not both.
+Identities.
+It is not the same as a NOT then an AND like this: formula_20
+which is called "XOR identity table"
+formula_26.
+or if formula_27=TRUE, TRUE.,
+DeMorgan's laws.
+"Make/break the bar and change the sign."

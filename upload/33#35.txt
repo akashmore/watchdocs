@@ -1,0 +1,3 @@
+Kilobyte.
+A kilobyte (kB) is a number used to measure storage space on computer hard drives or computer memory. A kilobyte originally meant 1000 bytes. Over time the meaning changed and today it is often used to mean 1024 bytes. This created some confusion as a "kilo" normally means 1000. The International Electrotechnical Commission (IEC) now defines a kilobyte as being 1000 bytes. According to the IEC, the correct name for 1,024 bytes is a kibibyte.
+One thousand kilobytes make one megabyte.

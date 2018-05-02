@@ -1,0 +1,5 @@
+Multitasking.
+Multitasking means that a computer can run more than one item of software at the same time. It can also refer to a person who is working on more than one task at the same time (for instance, talking on the telephone while filing papers).
+In computing.
+Computers which can appear to run more than one program even with only one CPU. Computer scientists solve the problem that a CPU can only do one thing at a time by programming it so that it switches rapidly between tasks. This happens so rapidly that it appears that the computer is running more than one program at once. This is called thrashing. This action is often controlled by the operating system (OS) controlling the hardware of the system.
+The more things the computer has to do at once, the more time it has to spend deciding which to give more time to, and the less time each one receives. This tends to make the computer perform its tasks more slowly, unless it uses a multi-core processor.

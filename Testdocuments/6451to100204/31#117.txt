@@ -1,0 +1,6 @@
+Pipette.
+A pipette is a glass tube used for moving a specific volume of a solution.
+A smaller, less accurate version, known as a teat pipette is made of plastic and is filled by squeezing a plastic bubble at the top.
+A pipette used for the delivery of small fractions of a milliliter of a liquid is called a micropipette.
+Accurate pipettes.
+Piston-driven air displacement pipettes, or 'micropipettes', are the most accurate and precise pipettes. They handle liquid in the microliter scale, and are used in biology and biochemistry,

@@ -1,0 +1,5 @@
+First-person shooter.
+A first-person shooter (FPS) is a type of video game. In a first-person shooter, a player sees through the eyes of a character. The character uses a gun to shoot objects or enemies. The character travels and shoots in a three-dimensional world.
+History.
+The first first-person shooters were made in the 1970s and 1980s.  In the 1970s, schools like the Massachusetts Institute of Technology (MIT) and the University of Illinois made "Maze War" and "Spacism." These games were not sold. In 1980, arcades got a tank game called "Battlezone." In 1983, home computers got "Battlezone." It was the first successful first-person shooter sold to many people.
+In the 1990s, first-person shooters were very popular. Many people played the first-person shooters "Wolfenstein 3D" and "Doom" because they were shareware. In 1998, "Half-Life" was made. "Half-Life" was different because it had a strong narrative.

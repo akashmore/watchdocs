@@ -1,0 +1,4 @@
+Symptom.
+Symptoms are used in diagnosis. The term is used in medicine, and in other fields such as fault-finding in engineering.
+In medicine, it refers to things the patient feels or notices. It contrasts with signs, which are changes which a doctor sees in a patient. What a patient feels is subjective, whereas what a doctor sees is objective.
+In diagnosis, all symptoms and signs are brought together to make a hypothesis as to what is going wrong. This might suggest further investigation or treatment. A complete investigation ends with a diagnosis that summarizes all this.
